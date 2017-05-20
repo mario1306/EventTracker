@@ -15,8 +15,8 @@ public class HelloController {
 		// a file located under /src/main/webapp
 		// try http://localhost:8080/EventTracker/index.jsp !
 
-		return "hello.jsp";		
+		//return "hello.jsp";		
 		// use view resolver
-		//return "hello";
+		return "hello";
 	}
 }
