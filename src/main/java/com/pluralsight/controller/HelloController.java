@@ -9,7 +9,7 @@ public class HelloController {
 
 	@RequestMapping(value = "/greeting")
 	public String sayHello(Model model) {
-		System.out.println("sayHello()");
+		System.out.println("HelloController.sayHello() ----");
 		model.addAttribute("greeting", "Hello World");
 		
 		// a file located under /src/main/webapp
